@@ -314,3 +314,79 @@
 # while(value:= random.randint(1,10)) !=5:
 #     print('Got:', value)
 #     print("Found 5!")
+
+#str('')--use to convert in string
+# '''"""" -- use cases: poem
+# "" -- text
+# '' -- name 
+# s = "hello"
+# new_s = "H" + s[1:]
+# print(new_s)
+# print(s)
+
+# s = "python Rocks"
+
+# print(s[0:6])
+# print(s[::4])
+# print(s[::-1])
+# print(s[:6])
+# print(s[7:12:2])
+# print(s[7:])
+
+# for ch in "China!":
+#     print(ch)
+
+# s = "hello world"
+# ("Stra0e".casefold())
+
+#trim .strip()
+# in python indexing start from 0
+
+#list and tuple
+#methods: append, extend, insert, remove, pop, clear, index, count, sort, reverse , copy
+
+# empty=[]
+# scores = [85,92,78,95,60]
+# mixed=[42,3.14,'hello', True, None]
+# matrix=[[1,2,3],
+#         [4,5,6],
+#         [7,8,9]
+#         ]
+# print(scores)
+# print(mixed)
+# print(matrix[1])
+
+#indexing and slicing
+# fruits=['apple', 'banana', 'cherry', 'elderberry']
+# print(fruits[0])
+# print(fruits[-1])
+# print(fruits[1:4])
+# print(fruits[:3])
+# print(fruits[::2])
+
+#mutating a list
+# fruits =['apple', 'banana', 'cherry']
+# fruits[1]='blueberry'
+# print(fruits)
+
+# fruits[1:3]=['mango', 'kiwi', 'papaya']
+# print(fruits)
+
+nums=[0,1,2,3,4,5,6,7,8,9]
+nums.append(7)
+print('append:', nums)
+
+nums.extend([True])
+print('hello:', nums)
+
+nums.insert(7,99)
+print('insert:', nums)
+
+nums.remove(1)
+print('remove:', nums)
+
+popped = nums.pop()
+print('pop:   ', nums, 'got:', popped )
+
+print('index:', nums.index(5))
+print('count 8:', nums.count(8))
